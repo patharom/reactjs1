@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* common css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+/* header start */
+.bg-top-color{
+    background-color: black;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 5px 0px;
+}
+.topbar-text p{
+    color:white;
+}
+.top-select{
+    display: flex;
+}
+
+/* navigationbar start */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-image{
+height: 50px;
+width: 50px;
+border-radius: 100%;
+border: 2px solid gray;
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+.user-image i{
+    font-size: 25px ;
+    color:gray;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-text{
+    margin-left: 10px;
+}
+.search-input{
+    border:2px solid #0989ff;
+    display: flex;
+    align-items: center;
+}
+.text-input input{
+    border:0;
+}
+.text-input:focus-within input{
+    border:0;
+    outline: none;
+}
+.navi-select select{
+    border:0;
+}
+.search-icon{
+    background-color:#0989ff ;
+    padding: 10px 20px;
+}
+
+/* Nav Bar */
+
+.con {
+    max-width: 1150px;
+    margin: auto;
+    padding-left: 10px;
+    border-top: 2px solid gray;
+    margin-top: 30px;
+}
+
+.navigation .bar {
+    display: flex;
+}
+
+.navi-select {
+    display: flex;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* Hover Effect in Card View*/
+
+.card{
+    height:auto;
+    width:250px;
+    border:1px solid gray;
+    margin: 100px;
+    overflow: hidden;
+}
+.card-image img{
+    object-fit: cover;
+}
+
+.card-image:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card-image{
+    position: relative;
+}
+
+.hover-open-content{
+    display: none;   
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.card-image:hover .hover-open-content{
+    display: block;
+    transform: translate(30px);
+}
+
+
+.card-text{
+    padding: 20px;
+    border-top:1px solid gray
+}
