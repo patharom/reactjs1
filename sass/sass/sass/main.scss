@@ -1,0 +1,39 @@
+@use 'index.scss';
+@import 'variables.scss';
+
+
+
+// .box{
+//     height:  $h-100;
+//     width:  $w-100;
+//     background-color: $bg-yellow;
+// }
+
+
+
+// nesting
+
+
+.box-1{
+    height: $h-300;
+    width: $w-300;
+    background-color: $bg-red;
+
+    .box-2{
+        height: $h-200;
+        width: $w-200;
+        background-color: $bg-yellow;
+
+
+        .box-3{
+            height: $h-100;
+            width: $w-100;
+            background-color: $bg-blue;
+        }
+    }
+}
+
+
+
+
+

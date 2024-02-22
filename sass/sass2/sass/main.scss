@@ -1,0 +1,35 @@
+@use'index.css';
+
+$bg-1:red;
+$bg-2:rgb(42, 95, 155);
+$bg-3:rgb(19, 1, 27);
+$bg-4:rgb(88, 25, 107);
+$bg-5:rgb(133, 186, 49);
+$h-1:600px;
+$h-3:300px;
+$h-2:400px;
+$w-1:300px;
+$w-2:400px;
+$w-3:500px;
+$df:display flex;
+
+
+
+.box2{
+    height: $h-1;
+    width: 200px;
+    background-color:$bg-3;
+    display: $df;
+}
+.box3{
+    height: $h-1;
+    width: $w-3;
+    background-color:$bg-5;
+    display: $df;
+}
+.box4{
+    height: $h-2;
+    width: $w-1;
+    background-color:$bg-2;
+    display: $df;
+}

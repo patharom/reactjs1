@@ -1,0 +1,32 @@
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: 0;
+}
+
+.box {
+  height: 300px;
+  width: 200px;
+  background-color: rgb(42, 95, 155);
+}
+
+.box2 {
+  height: 600px;
+  width: 200px;
+  background-color: rgb(19, 1, 27);
+  display: display flex;
+}
+
+.box3 {
+  height: 600px;
+  width: 500px;
+  background-color: rgb(133, 186, 49);
+  display: display flex;
+}
+
+.box4 {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(42, 95, 155);
+  display: display flex;
+}/*# sourceMappingURL=main.css.map */
