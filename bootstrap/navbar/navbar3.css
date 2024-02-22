@@ -1,0 +1,22 @@
+.text{
+    color:rgb(78, 192, 112);
+} 
+
+/* .margin{
+    margin: auto;
+} */
+
+body{
+    background-color: rgb(207, 229, 238);
+}
+
+
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important; */
+}
+
+.om{
+    margin-left: 50px;
+}
