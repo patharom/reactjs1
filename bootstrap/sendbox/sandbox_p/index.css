@@ -1,0 +1,67 @@
+.one {
+    margin-top: 100px;
+}
+
+.two {
+    max-width: 90px;
+    max-height: 50px;
+}
+
+
+.three {
+    margin-top: 200px;
+}
+
+.four {
+    max-width: 200px;
+}
+
+.five {
+    border: none;
+}
+
+.six {
+    margin-top: 150px;
+}
+
+
+.accordion-item {
+    border: none;
+   
+}
+
+.seven{
+    margin-top: 200px;
+}
+
+.card{
+    border: none;
+}
+
+
+.eight{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+
+.iocn{
+    width: 20px;
+    height: 20px;
+}
+
+
+p {
+    /* margin-top: 0; */
+    margin-bottom: 1rem;
+}
+
+.line{
+    height: 340px;
+}
+
+.cards{
+    height: 370px;
+    /* max-width: 600px; */
+}
